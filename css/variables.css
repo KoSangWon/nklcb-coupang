@@ -1,0 +1,28 @@
+:root {
+    /* Color */
+    --color-black: #111;
+
+    --color-white: #fff;
+
+    --color-gray: #929292;
+    --color-light-gray: #ccc;
+    --color-dark-gray: #555;
+
+    --color-blue: #0074e9;
+    --color-disabled-blue: #97aabd;
+
+    --color-vivid-white: #f4f4f4;
+
+    /* Space */
+    --space-vertical-small: 20px;
+    --space-vertical: 22px;
+    --space-vertical-large: 45px;
+
+    /* Size */
+    --size-input-box-height: 50px;
+
+    /* Font */
+    --font-small: 14px;
+    --font-medium: 16px;
+    --font-large: 18px;
+}

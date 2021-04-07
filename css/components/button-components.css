@@ -1,0 +1,30 @@
+.sign-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-button {
+    margin: var(--space-vertical) 0px;
+    box-shadow: 0px 1px 3px var(--color-light-gray);
+    border: none;
+    height: 66px;
+    font-weight: 700;
+    font-size: var(--font-large);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.sign-button__sign-in {
+    background-color: var(--color-disabled-blue);
+    color: var(--color-white);
+}
+
+.sign-button__sign-up {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+}
+
+.sign-container hr {
+    width: 100%;
+    color: var(--color-light-gray);
+}

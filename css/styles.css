@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/logo-header.css";
+@import "components/button-components.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+    margin: 25vh 0px;
+    color: var(--color-black);
+    font-family: "Noto Sans", sans-serif;
+}

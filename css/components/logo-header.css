@@ -1,0 +1,10 @@
+.logo-header {
+    width: 50%;
+    margin: 0 auto var(--space-vertical-large);
+    text-align: center;
+}
+
+.logo-header__img {
+    max-width: 50%;
+    height: auto;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupang</title>
+</head>
+
+<body>
+    <header class="logo-header">
+        <img src="css/img/logo.svg" class="logo-header__img" alt="logo-image" />
+    </header>
+
+    <main class="main-container">
+        <div class="login-box">
+            <img src="css/img/shape-letter.svg" alt="letter-image" class="login-box__image" />
+            <input name="username" type="text" placeholder="아이디(이메일)" class="login-box__text" required />
+        </div>
+        <div class="login-box login-box--more-bottom-margin">
+            <img src="css/img/shape-lock.svg" alt="lock-image" class="login-box__image" />
+            <input name="password" type="password" placeholder="비밀번호" class="login-box__text" required />
+            <img src="css/img/shape-show.svg" alt="show-image" class="login-box__image" />
+        </div>
+
+        <div class="login-setting">
+            <div class="login-setting__auto-login">
+                <input type="checkbox" id="auto-login" class="login-setting__auto-login--check-box" checked />
+                <label for="auto-login">자동 로그인</label>
+            </div>
+            <div class="login-setting__find-info">
+                <a href="#" class="login-setting_find-info--text">아이디(이메일)/비밀번호 찾기 </a>
+                <i class="fas fa-chevron-right login-setting__find-info--icon"></i>
+            </div>
+        </div>
+
+        <div class="sign-container">
+            <button class="sign-button sign-button__sign-in">
+                로그인
+            </button>
+            <hr />
+            <button class="sign-button sign-button__sign-up">
+                회원 가입
+            </button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        &copy;Coupang Corp, All rights reserved.
+    </footer>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
